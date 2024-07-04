@@ -1,0 +1,192 @@
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    
+}
+.top{
+    background-color:white;
+    /* color:rgb(8, 100, 71); */
+    padding: 20px 0;
+    /* padding-left:  40%; */
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+ul{
+    list-style-type: none;
+}
+.top ul {
+    display: flex;
+    gap: 30px;
+    font-size: 18px;
+    /* color:rgb(2, 80, 73); */
+    float: right;
+
+}
+.top ul a{
+    text-decoration: none;
+    color:#219DA8
+
+}
+.top a:hover{
+    color:pink;
+    border-bottom:3px pink;
+} 
+.top li {
+    display: flex;
+    align-items: center;
+}
+#home {
+    background-image: url(samantha-gades-BlIhVfXbi9s-unsplash.jpg);
+    background-size: cover;
+    height:100vh;
+    display:flex;
+    flex-wrap: wrap;
+    /* position: fixed; */
+    padding: 6em;
+    /* background-color:white ; */
+    margin-top: 2em ;
+    
+}
+.content{
+    padding: 30px 100px;
+    justify-content: space-between;
+    max-width:800px;
+
+}
+h2{
+    font-size: 60px;
+}
+span{
+    color:rgb(23, 114, 96)
+}
+.content p{
+    font-size:18px;
+    margin:25px 0 30px;
+    float: left;
+}
+.image{
+   padding-top: 0px;
+flex:1;
+display: flex;
+justify-content:flex-end;
+background-image: url(https://gratisography.com/wp-content/uploads/2024/01/gratisography-cyber-kitty-800x525.jpg);
+}
+.image img {
+    max-width: 100%;
+    border-radius: 8px;
+    float:right;
+}
+#aboutme{
+    padding:2em;
+    margin: 5em 0;
+    background-color: #92e4ec;
+     
+}
+.title {
+    padding: 30px 100px;
+    justify-content: space-between;
+    font-size: xx-large;
+   
+}
+
+#skills {
+    padding: 2em;
+    background-color: #E4FEFF;
+         margin: 2em 0;    
+}
+
+.content2{
+    font-size: 18px;
+    /* float: left; */
+    max-width: 800px;
+    padding: 10px 85px;
+    margin-bottom:2em 0;
+}
+
+#contact {
+    background-color:#E6F4F1;
+        margin: 2em 0;
+}
+
+#contact .content {
+    max-width: 800px;
+    padding: 30px 100px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 5px;
+}
+
+form input, form textarea {
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    background-color: #127164;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #044030;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .top {
+        padding: 0 20px;
+        flex-direction: column;
+    }
+
+    .top ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+footer{
+    background-color:#FFE8D2;
+    color:black;
+    padding:40px 90px;
+    display:flex;
+    flex-wrap:wrap;
+    flex:3;
+    justify-content: space-between;
+}
+.end{
+    justify-content: space-between;
+    align-items:last baseline;
+}
+#projects{
+ margin: 2em 0;
+ background-color: #E0F2EC;
+
+ }
+
+#qualification{
+  margin: 2em 0;
+  background-color: #BEFBFF;
+
+}
